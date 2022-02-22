@@ -1,6 +1,6 @@
 FROM alpine:3.13.1
 
-RUN apk --quiet add --upgrade git==2.30.2-r0 apache2==2.4.48-r0
+RUN apk --quiet add --upgrade git==2.30.2-r0 apache2==2.4.52-r0
 
 WORKDIR /var/www/localhost/htdocs
 
